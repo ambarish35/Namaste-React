@@ -1,3 +1,7 @@
+import React from "react"
+import ReactDOM from "react-dom/client";
+
+
 const heading = React.createElement("h1", {id: "heading"}, "Hello World from React!");
 
 console.log(heading) //createElement creates an element, which has type : "h1", it has props:{ id: : "heading", children: "Hello World from React!"}
