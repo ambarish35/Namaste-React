@@ -38,12 +38,26 @@ body{
     width: 70px;
 }
 
-.res-card{
+.res-card {
     width: 17vw;
     height: 35vh;
     border-radius: 10px;
 }
 
+
+.shimmer-card{
+    width: 17vw;
+    height: 35vh;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+}
+.img-shimmer{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: lightgray;
+}
 
 
 .res-img{
@@ -52,6 +66,8 @@ body{
     object-fit: cover;
     border-radius: 20px;
 }
+
+
 
 .res-card:hover{
     transform: scale(0.95);
@@ -75,6 +91,7 @@ h6{
 }
 
 .res-container{
+    margin-top: 20px;
     display: flex;
     gap: 1.5vw;
     flex-wrap: wrap;
